@@ -49,15 +49,11 @@ Let’s build something meaningful together! 🤝
 ---
 
 ### 📬 Reach Me
-- 📧 [javitha@example.com](mailto:javitha@example.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/javitha080)
-- 🎨 [Dribbble](https://dribbble.com/javitha080) | [Behance](https://behance.net/javitha080)
-- 🐦 [Twitter/X](https://x.com/javitha_dev)
-
+- 📧 [javitha@example.com](mailto:javitha1@gmail.com)
 ---
 
 ### 😄 Pronouns
-she/her
+he/his
 
 ---
 
