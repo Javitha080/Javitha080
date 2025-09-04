@@ -49,7 +49,7 @@ Let’s build something meaningful together! 🤝
 ---
 
 ### 📬 Reach Me
-- 📧 [javitha@example.com](mailto:javitha1@gmail.com)
+- 📧 [javitha@gmail.com](mailto:javithasenon1@gmail.com)
 ---
 
 ### 😄 Pronouns
