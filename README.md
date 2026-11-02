@@ -22,7 +22,7 @@
 ## ⟡ &nbsp;Hello, world
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Terminal: whoami" width="860" />
+  <img src="img/download (2).svg" alt="Terminal: whoami" width="860" />
 </div>
 
 <br/>
@@ -218,6 +218,6 @@ Issues, forks and DMs all land somewhere, and I do look at them.
 
 <br/><br/>
 
-<img src="./img/download(3).svg" width="100%" alt="Xen0n0 · SO BE IT" />
+<img src="img/download (3).svg" width="100%" alt="Xen0n0 · SO BE IT" />
 
 </div>
