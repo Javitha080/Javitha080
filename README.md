@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./img/download(1).svg" alt="Javitha — Xen0n0 · builder, tinkerer, shipper" width="100%" />
+<img src="img/download (1).svg" alt="Javitha — Xen0n0 · builder, tinkerer, shipper" width="100%" />
 
 <a href="https://github.com/Javitha080">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&height=44&lines=I+build+fast%2C+break+things+on+purpose.;Harness+tools+%C2%B7+AI+tooling+%C2%B7+motion+UI.;Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+C%23+%C2%B7+Kotlin.;51+repos+and+counting+%E2%80%94+SO+BE+IT." alt="Typing animation" />
