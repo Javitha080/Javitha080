@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Build with intent</title>
+  <desc id="desc">A dark, gridded profile banner with a red signal motif.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1" />
+    </pattern>
+    <radialGradient id="signalGlow">
+      <stop offset="0" stop-color="#d71921" stop-opacity=".44" />
+      <stop offset="1" stop-color="#d71921" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="edgeFade" x1="0" x2="1">
+      <stop offset="0" stop-color="#d71921" stop-opacity="0" />
+      <stop offset=".5" stop-color="#d71921" stop-opacity=".9" />
+      <stop offset="1" stop-color="#d71921" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="#111216" />
+  <rect width="1200" height="300" fill="url(#grid)" />
+  <circle cx="965" cy="146" r="220" fill="url(#signalGlow)" />
+  <path d="M0 252H1200" stroke="#ffffff" stroke-opacity=".12" />
+  <path d="M72 252H405" stroke="url(#edgeFade)" stroke-width="2" />
+  <text x="74" y="62" fill="#a4a4a0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="3">JAVITHA080 / PERSONAL SOFTWARE</text>
+  <text x="70" y="166" fill="#f4f1e9" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-4">BUILD WITH INTENT</text>
+  <rect x="75" y="199" width="42" height="3" fill="#d71921" />
+  <text x="132" y="205" fill="#c7c5c0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">AI TOOLS / PRACTICAL APPS / INTERFACES</text>
+  <g fill="none" stroke="#dedbd3" stroke-opacity=".35">
+    <circle cx="1000" cy="137" r="106" />
+    <circle cx="1000" cy="137" r="74" stroke-opacity=".54" />
+    <circle cx="1000" cy="137" r="42" stroke-opacity=".8" />
+    <path d="M850 137H1150M1000 -12V286" stroke-opacity=".25" />
+    <path d="M925 62L1075 212M1075 62L925 212" stroke-opacity=".16" />
+  </g>
+  <circle cx="1000" cy="137" r="9" fill="#d71921" />
+  <circle cx="1000" cy="137" r="19" fill="none" stroke="#d71921" stroke-opacity=".55" />
+  <text x="1126" y="278" text-anchor="end" fill="#a4a4a0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">SRI LANKA / 01</text>
+</svg>
