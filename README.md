@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Javitha — Xen0n0 · builder, tinkerer, shipper" width="100%" />
+<img src="./img/download(1).svg" alt="Javitha — Xen0n0 · builder, tinkerer, shipper" width="100%" />
 
 <a href="https://github.com/Javitha080">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&height=44&lines=I+build+fast%2C+break+things+on+purpose.;Harness+tools+%C2%B7+AI+tooling+%C2%B7+motion+UI.;Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+C%23+%C2%B7+Kotlin.;51+repos+and+counting+%E2%80%94+SO+BE+IT." alt="Typing animation" />
@@ -13,7 +13,7 @@
 <a href="https://javitha080.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE-0D1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117&color=EC4899" alt="Portfolio" /></a>
 <img src="https://komarev.com/ghpvc/?username=Javitha080&style=for-the-badge&label=VIEWS&labelColor=0D1117&color=22D3EE" alt="Profile views" />
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+<img src="./img/download(2).svg" width="100%" alt="" />
 
 </div>
 
@@ -218,6 +218,6 @@ Issues, forks and DMs all land somewhere, and I do look at them.
 
 <br/><br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Xen0n0 · SO BE IT" />
+<img src="./img/download(3).svg" width="100%" alt="Xen0n0 · SO BE IT" />
 
 </div>
