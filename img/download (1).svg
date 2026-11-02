@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Javitha — Xen0n0 · builder, tinkerer, shipper">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070711"/>
+      <stop offset="0.55" stop-color="#0E0A24"/>
+      <stop offset="1" stop-color="#061521"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#22D3EE;#F472B6;#A78BFA" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#F472B6;#A78BFA;#22D3EE" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#F472B6">
+        <animate attributeName="stop-color" values="#F472B6;#A78BFA;#22D3EE;#F472B6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="28"/></clipPath>
+    <radialGradient id="fade" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0.4" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+
+    <!-- aurora orbs -->
+    <g filter="url(#blur)">
+      <circle cx="220" cy="90" r="120" fill="#7C3AED" opacity="0.75">
+        <animateTransform attributeName="transform" type="translate" values="0 0;140 60;60 -20;0 0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="620" cy="300" r="130" fill="#06B6D4" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-120 -50;80 -30;0 0" dur="17s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1020" cy="80" r="110" fill="#EC4899" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-100 80;-30 20;0 0" dur="12s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect width="1200" height="340" fill="url(#fade)"/>
+
+    <!-- twinkling stars -->
+    <g fill="#fff">
+      <circle cx="90" cy="60" r="1.6"><animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="310" cy="270" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="48" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="860" cy="290" r="1.8"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1110" cy="190" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1000" cy="40" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="140" cy="250" r="1.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- status pill -->
+    <g transform="translate(600 78)">
+      <rect x="-150" y="-17" width="300" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.18"/>
+      <circle cx="-126" cy="0" r="5" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-110" y="5" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2.5" fill="#E5E7EB">ONLINE · WEST NAHIRA, LK</text>
+    </g>
+
+    <!-- name -->
+    <text x="600" y="195" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="-3" fill="url(#title)" filter="url(#glow)">Javitha</text>
+
+    <!-- subtitle -->
+    <text x="600" y="246" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" letter-spacing="7" fill="#9CA3AF">XEN0N0  ·  BUILDER  ·  TINKERER  ·  SHIPPER</text>
+
+    <!-- scanning line -->
+    <rect x="-200" y="304" width="200" height="2" rx="1" fill="url(#title)" opacity="0.9">
+      <animate attributeName="x" values="-200;1200" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="305" width="1200" height="1" fill="#ffffff" fill-opacity="0.08"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+</svg>
